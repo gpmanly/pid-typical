@@ -1,0 +1,157 @@
+# do PID_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID {C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID_defines.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:58:21 on Mar 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID" C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID_defines.v 
+# End time: 22:58:21 on Mar 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID {C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:58:22 on Mar 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID" C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v 
+# -- Compiling module operator_A
+# -- Compiling module operator_B
+# -- Compiling module operator_C
+# -- Compiling module adder_32bit
+# 
+# Top level modules:
+# 	adder_32bit
+# End time: 22:58:22 on Mar 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID {C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:58:22 on Mar 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID" C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v 
+# -- Compiling module booth_radix4
+# 
+# Top level modules:
+# 	booth_radix4
+# End time: 22:58:22 on Mar 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID {C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:58:22 on Mar 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID" C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v 
+# -- Compiling module booth_array
+# -- Compiling module partial_product_gen
+# -- Compiling module half_adder
+# -- Compiling module full_adder
+# -- Compiling module compressor42
+# -- Compiling module multiplier_16x16bit_pipelined
+# 
+# Top level modules:
+# 	multiplier_16x16bit_pipelined
+# End time: 22:58:22 on Mar 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID {C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:58:23 on Mar 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID" C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v 
+# -- Compiling module PID
+# 
+# Top level modules:
+# 	PID
+# End time: 22:58:23 on Mar 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.PID
+# vsim work.PID 
+# Start time: 23:51:00 on Mar 19,2016
+# Loading work.PID
+# Loading work.multiplier_16x16bit_pipelined
+# Loading work.booth_array
+# Loading work.booth_radix4
+# Loading work.partial_product_gen
+# Loading work.full_adder
+# Loading work.compressor42
+# Loading work.half_adder
+# Loading work.adder_32bit
+# Loading work.operator_A
+# Loading work.operator_C
+# Loading work.operator_B
+vsim work.PID
+# End time: 23:51:07 on Mar 19,2016, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim work.PID 
+# Start time: 23:51:07 on Mar 19,2016
+# Loading work.PID
+# Loading work.multiplier_16x16bit_pipelined
+# Loading work.booth_array
+# Loading work.booth_radix4
+# Loading work.partial_product_gen
+# Loading work.full_adder
+# Loading work.compressor42
+# Loading work.half_adder
+# Loading work.adder_32bit
+# Loading work.operator_A
+# Loading work.operator_C
+# Loading work.operator_B
+vlib tb
+vmap tb C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/simulation/modelsim/tb
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet tb C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/simulation/modelsim/tb 
+# Modifying modelsim.ini
+vmap -del tb
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet -del tb 
+# Removing reference to logical library tb
+# Modifying modelsim.ini
+vmap tb C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/bench
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet tb C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/bench 
+# Modifying modelsim.ini
+vmap -del tb
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet -del tb 
+# Removing reference to logical library tb
+# Modifying modelsim.ini
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 00:19:11 on Mar 20,2016
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module adder_32bit
+# -- Refreshing module booth_array
+# -- Refreshing module booth_radix4
+# -- Refreshing module compressor42
+# -- Refreshing module full_adder
+# -- Refreshing module half_adder
+# -- Refreshing module multiplier_16x16bit_pipelined
+# -- Refreshing module operator_A
+# -- Refreshing module operator_B
+# -- Refreshing module operator_C
+# -- Refreshing module partial_product_gen
+# -- Refreshing module PID
+# End time: 00:19:11 on Mar 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 00:19:16 on Mar 20,2016
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module adder_32bit
+# -- Skipping module booth_array
+# -- Skipping module booth_radix4
+# -- Skipping module compressor42
+# -- Skipping module full_adder
+# -- Skipping module half_adder
+# -- Skipping module multiplier_16x16bit_pipelined
+# -- Skipping module operator_A
+# -- Skipping module operator_B
+# -- Skipping module operator_C
+# -- Skipping module partial_product_gen
+# -- Skipping module PID
+# End time: 00:19:16 on Mar 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 02:01:44 on Mar 20,2016, Elapsed time: 2:10:37
+# Errors: 0, Warnings: 0

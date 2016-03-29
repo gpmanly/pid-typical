@@ -1,0 +1,254 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/simulation/modelsim
+vadder_32bit
+!i10b 1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!s100 <K]Ezn3m`]@i`H2;UcHIR0
+IKRQ@kNB1U<J>79=@SJnO21
+R0
+Z2 w1341992137
+Z3 8C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v
+Z4 FC:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v
+L0 47
+Z5 OV;L;10.4b;61
+Z6 !s108 1458399502.000000
+Z7 !s107 C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID|C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/CLA_fixed.v|
+!i113 1
+Z9 o-vlog01compat -work work
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID
+vbooth_array
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 j@3W]358>km[RX<cVYR1]3
+I0e7^meChKYbD>D7Bi;ihf0
+R0
+R2
+Z11 8C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v
+Z12 FC:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v
+L0 7
+R5
+R6
+Z13 !s107 C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID|C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/16x16bit_multiplier_pipelined.v|
+!i113 1
+R9
+R10
+vbooth_radix4
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 biR@5@>j`_nn1Bbc4Xd<>3
+IgzF^lc;nkO8S]^RQ<jMTT2
+R0
+R2
+8C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v
+FC:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v
+L0 5
+R5
+R6
+!s107 C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID|C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/booth.v|
+!i113 1
+R9
+R10
+vcompressor42
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 eJJShLH<9k?D>jaXP`8^03
+IB_I2llXW;@AabZljnUV963
+R0
+R2
+R11
+R12
+L0 116
+R5
+R6
+R13
+R14
+!i113 1
+R9
+R10
+vfull_adder
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 jkelldj@L^HGGEd`XADDn2
+I0Q51JYXOXA91RSGckMS[X1
+R0
+R2
+R11
+R12
+L0 101
+R5
+R6
+R13
+R14
+!i113 1
+R9
+R10
+vhalf_adder
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 APMgLO<;@ng<ck`[]0V=O3
+IWAnbVi_M5eU?<WXZB0Z=20
+R0
+R2
+R11
+R12
+L0 91
+R5
+R6
+R13
+R14
+!i113 1
+R9
+R10
+vmultiplier_16x16bit_pipelined
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 4Z2M738HzNEPaoK3K;oK_0
+Ik52hHSXJF<AEkWLf]DT]b2
+R0
+R2
+R11
+R12
+L0 145
+R5
+R6
+R13
+R14
+!i113 1
+R9
+R10
+voperator_A
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 mZ@KdBbV1_RH9AMa2iXRa0
+I::@bWZBEhc1@emkd4BBd93
+R0
+R2
+R3
+R4
+L0 6
+R5
+R6
+R7
+R8
+!i113 1
+R9
+R10
+noperator_@a
+voperator_B
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 E^KlZ[A]]h9]<0DG0O@^z2
+I3j1ZEIb<K;Zml@dbMN7SV2
+R0
+R2
+R3
+R4
+L0 18
+R5
+R6
+R7
+R8
+!i113 1
+R9
+R10
+noperator_@b
+voperator_C
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 iTb4P0DlZ;N3LHkjB=oo^3
+Id3TlY1:XD1=Y2_4lgUAFR2
+R0
+R2
+R3
+R4
+L0 28
+R5
+R6
+R7
+R8
+!i113 1
+R9
+R10
+noperator_@c
+vpartial_product_gen
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 ^_jMF=W18WO>ZADnVAcb[1
+I8Gl<l[@U1hNT9IP0GFTPn0
+R0
+R2
+R11
+R12
+L0 73
+R5
+R6
+R13
+R14
+!i113 1
+R9
+R10
+vPID
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 7Pb6fZeTF8`3`0^AII=Ll1
+IffYf^OcQcc10]E1gFMLHH2
+R0
+w1457539621
+8C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v
+FC:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v
+L0 38
+R5
+!s108 1458399503.000000
+!s107 C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID_defines.v|C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID|C:/Users/Gp/OneDrive/STUDY_STUFF/ECE_199/PID/PID.v|
+!i113 1
+R9
+R10
+n@p@i@d
